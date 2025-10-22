@@ -1,4 +1,3 @@
-
 # Loan Prediction
 
 End to End ML project with free deployment.
