@@ -11,6 +11,7 @@ with open("model.pkl", "rb") as f:
     loaded_model = pickle.load(f)
 
 def get_predictions():
+    
     data = {
             "ApplicantIncome": document.querySelector("#ApplicantIncome").value,
             "CoapplicantIncome": document.querySelector("#CoapplicantIncome").value,
