@@ -3,8 +3,6 @@ import numpy as np
 from pyscript import Element
 from js import document, window
 import pickle
-
-
 # Disable warnings by pyscript appearing in the browser.
 import warnings
 warnings.filterwarnings("ignore")
